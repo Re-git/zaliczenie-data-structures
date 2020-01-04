@@ -1,0 +1,22 @@
+Zaimplementowac algorytm sortowania bąbelkowego w 3 odmianach:
+
+Prototyp funkcji:
+
+1) void bubble_sort_1(int * arr, int arr_size);
+
+Pełne przejścia za każdym razem przez calą tablicę.
+(N-1)*(N-1) porównań.
+
+2) void bubble_sort_2(int * arr, int arr_size);
+
+Uwzględniamy, że po pierwszym pełnym przejściu, ostatni element jest na odpowiedniej pozycji.
+Każde kolejne pełne przejście, kończy się na elemencie 
+
+3) void bubble_sort_3(int * arr, int arr_size);
+
+Jak pkt 2. + detekcja momentu, kiedy tablica jest w pełni posortowana, i przerwanie sortowania.
+
+10 5 6 7 8 9
+->
+5 6 7 8 9 10
+-> posortowana, koniec

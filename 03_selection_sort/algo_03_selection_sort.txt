@@ -1,0 +1,6 @@
+Zaimplementowac algorytm sortowania przez wybieranie "selection sort":
+
+Prototyp funkcji:
+
+1) void selection_sort(int * arr, int arr_size);
+

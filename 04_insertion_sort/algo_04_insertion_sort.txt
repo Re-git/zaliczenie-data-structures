@@ -1,0 +1,5 @@
+Zaimplementowac algorytm sortowania przez wstawianie "insertion sort":
+
+Prototyp funkcji:
+
+1) void insertion_sort(int * arr, int arr_size);
